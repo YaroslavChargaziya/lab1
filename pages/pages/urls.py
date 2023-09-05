@@ -20,5 +20,5 @@ from Pagesi import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('test', views.homePageView)
+    path('', views.homePageView)
 ]
